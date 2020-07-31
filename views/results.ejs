@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>YouTube Playlist Scrapper</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <main>
+        <img src="ytscraper3000logo.png">
+        <h1>RESULTS: </h1>
+
+        <% for(var i=0; i < videos.length; i++) { %>
+        <div class="video-container">
+            <p> <%=videos[i].index%>: </p>
+            <p> <%=videos[i].video%> </p>
+        </div>
+        <% } %>
+
+    </main>
+</body>
+
+</html>

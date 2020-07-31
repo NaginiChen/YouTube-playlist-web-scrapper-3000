@@ -1,0 +1,20 @@
+body {
+    padding: 2em 10%;
+    font-family: Arial;
+}
+
+h1 {
+    margin: 2em 0;
+}
+
+img {
+    width: 100%;
+}
+
+form input:nth-child(2) {
+    width: 50em;
+}
+
+.video-container p {
+    display: inline-block;
+}
