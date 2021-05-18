@@ -9,6 +9,8 @@ h1 {
 
 img {
     width: 100%;
+    pointer-events: none;
+    user-select: none;
 }
 
 form input:nth-child(2) {
